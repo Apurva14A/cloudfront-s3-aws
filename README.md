@@ -8,7 +8,7 @@
 ## Steps to create S3 bucket using AWS console:
   - Search for S3 services in AWS serach bar click on "S3" Look below screenshot
 
- ![images]((https://github.com/Apurva14A/static-website-aws-S3/blob/8a5f32736ecbd1052f977fbed9a46c8ab9f89e93/images/aws-s3-1.png))
+ ![images](https://github.com/Apurva14A/static-website-aws-S3/blob/8a5f32736ecbd1052f977fbed9a46c8ab9f89e93/images/aws-s3-1.png)
 
 
   - It will open up S3 console like this:
@@ -18,7 +18,7 @@
 
   - Now, select on "Create bucket" on the console, it will open up new window like below:
 
-     ![images]((https://github.com/Apurva14A/static-website-aws-S3/blob/8a5f32736ecbd1052f977fbed9a46c8ab9f89e93/images/aws-s3--2.png))
+     ![images](https://github.com/Apurva14A/static-website-aws-S3/blob/8a5f32736ecbd1052f977fbed9a46c8ab9f89e93/images/aws-s3--2.png)
 
     Here fill out the below list out required details to host a static webiste :
 
