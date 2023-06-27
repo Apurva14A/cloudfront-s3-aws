@@ -33,3 +33,34 @@ The cloud is perfect for hosting **static websites** that only include **HTML, C
      New window will open like this:
 
       ![images](https://github.com/Apurva14A/static-website-aws-S3/blob/8a5f32736ecbd1052f977fbed9a46c8ab9f89e93/images/aws-s3-3.png)
+
+  - After, bucket gets created then go to "properties" inside that go to "Static website hosting" and change the settings to "enable" and mention the index.html file there.
+
+    ![images](images\aws-s3-5.png)
+
+  - Now, Go to Permissions and edit the bucket policy then copy and paste the below bucket policy.
+
+   ![images](images\aws-s3-6.png)
+   
+
+ - Now, create CDN endpoint by going to Cloudfront console. Click on Create a Cloudfront distribution
+
+   ![images](images\aws-s3-7.png)
+
+
+  - And then fill out the values such as :
+   - origin 
+   - choose Redirect http to https
+   - choose no WAF
+   - then click on create distribution
+
+  ![images](images\aws-s3-8.png)
+
+
+  - wait for 4-5 min to be get the endpoint created. You will see below message.
+
+  ![images](images\cdn-1.png)
+
+  - After endpoint gets created go to browser and open the endpoint. It will open your hosted website.
+
+   -Put /index.html  at last to access your website
