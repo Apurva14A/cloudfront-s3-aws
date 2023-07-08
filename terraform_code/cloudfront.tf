@@ -1,4 +1,4 @@
-resource "aws_cloudfront_distribution" "this" {
+resource "aws_cloudfront_distribution" "website_cdn" {
   count = var.create_distribution ? 1 : 0
 
   aliases             = var.aliases
